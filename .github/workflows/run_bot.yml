@@ -2,8 +2,8 @@ name: Trading Bot Task
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 1時間おき（毎時0分）に実行
-  workflow_dispatch:      # 手動で実行ボタンも出せるようにする
+    - cron: '0 * * * *'  # 1時間おきに実行
+  workflow_dispatch:      # 手動実行ボタンを表示
 
 jobs:
   build:
@@ -15,14 +15,14 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.10' # 安定した3.10を指定
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          python -m pip install --upgrade pip
+          pip install yfinance pandas_ta requests
 
       - name: Run bot
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }} # 設定したURLを読み込む
-
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: python bot.py
