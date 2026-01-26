@@ -1,0 +1,27 @@
+name: Trading Bot Task
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 1時間おき（毎時0分）に実行
+  workflow_dispatch:      # 手動で実行ボタンも出せるようにする
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run bot
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }} # 設定したURLを読み込む
+        run: python bot.py
