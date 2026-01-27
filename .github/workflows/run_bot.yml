@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # 重要：これがないと記憶を保存できません
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -26,3 +28,11 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: python bot.py
+
+      - name: Save History # ボットが書いたメモをGitHubに永久保存するステップ
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add trade_history.txt || echo "No changes"
+          git commit -m "Update trade history" || echo "No changes"
+          git push || echo "No changes"
