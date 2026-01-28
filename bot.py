@@ -6,7 +6,7 @@ import json
 
 WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK")
 HISTORY_FILE = "trade_history.json"
-INITIAL_CASH = 100000 
+INITIAL_CASH = 1000 
 JPY_USD = 150 
 
 def send_discord(message):
@@ -102,3 +102,4 @@ else:
 
 save_data(data_store)
 send_discord(summary)
+
