@@ -1,0 +1,406 @@
+{
+    "ADBE": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "AMD": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "ABNB": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "ALNY": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "GOOGL": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "GOOG": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "AMZN": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "AEP": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "AMGN": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "ADI": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "AAPL": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "AMAT": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "APP": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "ARM": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "ASML": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "TEAM": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "ADSK": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "ADP": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "AXON": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "BKR": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "BKNG": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "AVGO": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "CDNS": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "CHTR": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "CTAS": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "CSCO": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "CCEP": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "CTSH": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "CMCSA": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "CEG": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "CPRT": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "CSGP": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "COST": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "CRWD": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "CSX": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "DDOG": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "DXCM": {
+        "holdings": 9.045681062033847,
+        "cash": 0
+    },
+    "FANG": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "DASH": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "EA": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "EXC": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "FAST": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "FER": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "FTNT": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "GEHC": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "GILD": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "HON": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "IDXX": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "INSM": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "INTC": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "INTU": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "ISRG": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "KDP": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "KLAC": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "KHC": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "LRCX": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "LIN": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "MAR": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "MRVL": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "MELI": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "META": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "MCHP": {
+        "holdings": 8.874689061389844,
+        "cash": 0
+    },
+    "MU": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "MSFT": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "MSTR": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "MDLZ": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "MPWR": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "MNST": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "NFLX": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "NVDA": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "NXPI": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "ORLY": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "ODFL": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "PCAR": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "PLTR": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "PANW": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "PAYX": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "PYPL": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "PDD": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "PEP": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "QCOM": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "REGN": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "ROP": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "ROST": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "STX": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "SHOP": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "SBUX": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "SNPS": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "TMUS": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "TTWO": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "TSLA": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "TXN": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "TRI": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "VRSK": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "VRTX": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "WMT": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "WBD": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "WDC": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "WDAY": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "XEL": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    },
+    "ZS": {
+        "holdings": 0.0,
+        "cash": 100000.0
+    }
+}
