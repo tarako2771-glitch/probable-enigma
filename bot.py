@@ -2,62 +2,108 @@ import yfinance as yf
 import requests
 import os
 import pandas as pd
+import json
 
 WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK")
-SYMBOL = "BTC-USD"
-HISTORY_FILE = "trade_history.txt"
+HISTORY_FILE = "trade_history.json"
+INITIAL_CASH = 100000  # 1銘柄あたりのシミュレーション予算（10万円）
+JPY_USD = 150 # 簡易固定レート
 
 def send_discord(message):
-    if WEBHOOK_URL:
+    if not WEBHOOK_URL: return
+    # Discordの2000文字制限対策
+    if len(message) > 2000:
+        for i in range(0, len(message), 2000):
+            requests.post(WEBHOOK_URL, json={"content": message[i:i+2000]})
+    else:
         requests.post(WEBHOOK_URL, json={"content": message})
 
-def get_last_buy_price():
+def get_nasdaq100_list():
+    try:
+        # WikipediaのNasdaq100リストからティッカーを取得
+        url = 'https://en.wikipedia.org/wiki/Nasdaq-100'
+        df_list = pd.read_html(url)[4]
+        return df_list['Ticker'].tolist()
+    except Exception as e:
+        print(f"Error fetching list: {e}")
+        return ["AAPL", "MSFT", "AMZN", "NVDA", "GOOGL", "META", "TSLA"]
+
+def load_data():
     if os.path.exists(HISTORY_FILE):
-        try:
-            with open(HISTORY_FILE, "r") as f:
-                content = f.read().strip()
-                return float(content) if content else None
-        except:
-            return None
-    return None
+        with open(HISTORY_FILE, "r") as f:
+            return json.load(f)
+    return {}
 
-def save_buy_price(price):
+def save_data(data):
     with open(HISTORY_FILE, "w") as f:
-        f.write(str(price))
+        json.dump(data, f)
 
-df = yf.download(SYMBOL, period="5d", interval="1h")
-df['SMA_S'] = df['Close'].rolling(window=12).mean()
-df['SMA_L'] = df['Close'].rolling(window=24).mean()
-df = df.dropna()
+# 実行開始
+symbols = get_nasdaq100_list()
+data_store = load_data()
+actions_taken = []
+total_all_assets = 0
 
-if len(df) < 2:
-    send_discord("データ準備中...")
+print(f"Starting scan for {len(symbols)} symbols...")
+
+for symbol in symbols:
+    try:
+        # ティッカーの微修正 (例: BRK.B -> BRK-B)
+        s_fix = symbol.replace('.', '-')
+        df = yf.download(s_fix, period="5d", interval="1h", progress=False)
+        
+        # 十分なデータがない場合はスキップ
+        if len(df) < 25: continue
+        
+        # 移動平均線計算
+        df['SMA_S'] = df['Close'].rolling(window=12).mean()
+        df['SMA_L'] = df['Close'].rolling(window=24).mean()
+        
+        current_price_usd = float(df['Close'].iloc[-1])
+        current_price_jpy = current_price_usd * JPY_USD
+        
+        s1, l1 = float(df['SMA_S'].iloc[-1]), float(df['SMA_L'].iloc[-1])
+        s2, l2 = float(df['SMA_S'].iloc[-2]), float(df['SMA_L'].iloc[-2])
+        
+        # 銘柄ごとの財布を準備
+        if s_fix not in data_store:
+            data_store[s_fix] = {"holdings": 0.0, "cash": float(INITIAL_CASH)}
+        
+        h = data_store[s_fix]["holdings"]
+        c = data_store[s_fix]["cash"]
+        
+        # 売買判定
+        if s2 <= l2 and s1 > l1 and c > 0: # ゴールデンクロスで買い
+            h = c / current_price_jpy
+            c = 0
+            actions_taken.append(f"🚀買:{s_fix}")
+        elif s2 >= l2 and s1 < l1 and h > 0: # デッドクロスで売り
+            c = h * current_price_jpy
+            h = 0
+            actions_taken.append(f"⚠️売:{s_fix}")
+        
+        # 記録更新
+        data_store[s_fix] = {"holdings": h, "cash": c}
+        total_all_assets += round(c + (h * current_price_jpy))
+        
+    except Exception as e:
+        print(f"Error processing {symbol}: {e}")
+        continue
+
+# 全体の集計
+initial_total = len(symbols) * INITIAL_CASH
+profit_loss = total_all_assets - initial_total
+profit_rate = (profit_loss / initial_total) * 100
+
+summary = f"📑 **【Nasdaq100自動シミュレーション報告】**\n"
+summary += f"💰 総資産: **{total_all_assets:,}円**\n"
+summary += f"📈 累計損益: {profit_loss:+,}円 ({profit_rate:+.2f}%)\n"
+
+if actions_taken:
+    summary += "\n🔔 **今回の売買:** " + ", ".join(actions_taken)
 else:
-    current_price = round(float(df['Close'].iloc[-1]), 2)
-    s1, l1 = float(df['SMA_S'].iloc[-1]), float(df['SMA_L'].iloc[-1])
-    s2, l2 = float(df['SMA_S'].iloc[-2]), float(df['SMA_L'].iloc[-2])
-    
-    last_buy_price = get_last_buy_price()
-    profit_msg = ""
+    summary += "\n😴 本日の売買シグナルはありませんでした。"
 
-    if last_buy_price:
-        diff = current_price - last_buy_price
-        rate = (diff / last_buy_price) * 100
-        emoji = "📈" if diff >= 0 else "📉"
-        profit_msg = f"\n{emoji} 現在の含み損益: {round(diff, 2)} USD ({round(rate, 2)}%)"
-
-    status_msg = f"🔎 {SYMBOL} 現在価格: {current_price}"
-
-    if s2 <= l2 and s1 > l1:
-        status_msg += "\n🚀 **【買い】** ゴールデンクロス発生！"
-        save_buy_price(current_price)
-        status_msg += f"\n💰 {current_price} で仮想購入しました。"
-    elif s2 >= l2 and s1 < l1:
-        status_msg += "\n⚠️ **【売り】** デッドクロス発生！"
-        if last_buy_price:
-            status_msg += f"\n🏁 今回のトレード結果: {round(current_price - last_buy_price, 2)} USD"
-            with open(HISTORY_FILE, "w") as f: f.write("") # 履歴を空にする
-    else:
-        status_msg += f"\n😴 シグナルなし。ホールド中。{profit_msg}"
-
-    send_discord(status_msg)
+save_data(data_store)
+send_discord(summary)
+print("Process completed.")
