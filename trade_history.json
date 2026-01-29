@@ -144,8 +144,8 @@
         "cash": 1000.0
     },
     "DXCM": {
-        "holdings": 0.09045681062033847,
-        "cash": 0
+        "holdings": 0,
+        "cash": 993.2157392034746
     },
     "FANG": {
         "holdings": 0.0,
@@ -184,8 +184,8 @@
         "cash": 1000.0
     },
     "HON": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.029525961578900976,
+        "cash": 0
     },
     "IDXX": {
         "holdings": 0.0,
@@ -348,8 +348,8 @@
         "cash": 1000.0
     },
     "SNPS": {
-        "holdings": 0.012984441454842314,
-        "cash": 0
+        "holdings": 0,
+        "cash": 931.1402394569074
     },
     "TMUS": {
         "holdings": 0.0,
