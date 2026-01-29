@@ -92,8 +92,8 @@
         "cash": 1000.0
     },
     "CHTR": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.03473850523396624,
+        "cash": 0
     },
     "CTAS": {
         "holdings": 0.0,
@@ -380,8 +380,8 @@
         "cash": 0
     },
     "WMT": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.056735175715880014,
+        "cash": 0
     },
     "WBD": {
         "holdings": 0.0,
