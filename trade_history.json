@@ -112,12 +112,12 @@
         "cash": 1000.0
     },
     "CMCSA": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.22757011945056987,
+        "cash": 0
     },
     "CEG": {
-        "holdings": 0.023084824507111204,
-        "cash": 0
+        "holdings": 0,
+        "cash": 989.092441555178
     },
     "CPRT": {
         "holdings": 0.0,
@@ -144,8 +144,8 @@
         "cash": 1000.0
     },
     "DXCM": {
-        "holdings": 0,
-        "cash": 993.2157392034746
+        "holdings": 0.09008759539260541,
+        "cash": 0
     },
     "FANG": {
         "holdings": 0.0,
@@ -376,8 +376,8 @@
         "cash": 1000.0
     },
     "VRTX": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.014048692516166575,
+        "cash": 0
     },
     "WMT": {
         "holdings": 0.0,
