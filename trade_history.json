@@ -56,8 +56,8 @@
         "cash": 1000.0
     },
     "ASML": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.0046481489677273665,
+        "cash": 0
     },
     "TEAM": {
         "holdings": 0.0,
@@ -340,8 +340,8 @@
         "cash": 1000.0
     },
     "SHOP": {
-        "holdings": 0.047782873154502636,
-        "cash": 0
+        "holdings": 0,
+        "cash": 945.8858742792623
     },
     "SBUX": {
         "holdings": 0.0,
