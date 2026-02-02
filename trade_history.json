@@ -1,7 +1,7 @@
 {
     "ADBE": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.022634163350510998,
+        "cash": 0
     },
     "AMD": {
         "holdings": 0.0,
@@ -320,12 +320,12 @@
         "cash": 1000.0
     },
     "QCOM": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.043543103443407304,
+        "cash": 0
     },
     "REGN": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.00884578010828954,
+        "cash": 0
     },
     "ROP": {
         "holdings": 0.0,
@@ -360,8 +360,8 @@
         "cash": 1000.0
     },
     "TSLA": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.015705860596731156,
+        "cash": 0
     },
     "TXN": {
         "holdings": 0.0,
