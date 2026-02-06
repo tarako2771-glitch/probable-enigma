@@ -116,8 +116,8 @@
         "cash": 0
     },
     "CEG": {
-        "holdings": 0,
-        "cash": 989.092441555178
+        "holdings": 0.025232273176367486,
+        "cash": 0
     },
     "CPRT": {
         "holdings": 0.0,
@@ -156,12 +156,12 @@
         "cash": 0
     },
     "EA": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.03333333333333333,
+        "cash": 0
     },
     "EXC": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.15042118033780613,
+        "cash": 0
     },
     "FAST": {
         "holdings": 0.0,
@@ -332,8 +332,8 @@
         "cash": 1000.0
     },
     "ROST": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.034960756103168796,
+        "cash": 0
     },
     "STX": {
         "holdings": 0.0,
@@ -384,12 +384,12 @@
         "cash": 0
     },
     "WBD": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.2438429637695385,
+        "cash": 0
     },
     "WDC": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.023599656260866082,
+        "cash": 0
     },
     "WDAY": {
         "holdings": 0.0,
