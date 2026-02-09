@@ -72,8 +72,8 @@
         "cash": 1000.0
     },
     "AXON": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.015463598863825664,
+        "cash": 0
     },
     "BKR": {
         "holdings": 0.0,
@@ -140,8 +140,8 @@
         "cash": 0
     },
     "DDOG": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.05822162199534629,
+        "cash": 0
     },
     "DXCM": {
         "holdings": 0.09008759539260541,
@@ -252,8 +252,8 @@
         "cash": 1000.0
     },
     "MSFT": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.016105977805817094,
+        "cash": 0
     },
     "MSTR": {
         "holdings": 0.0,
