@@ -84,8 +84,8 @@
         "cash": 1000.0
     },
     "AVGO": {
-        "holdings": 0.02012396369002672,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1036.2684577780444
     },
     "CDNS": {
         "holdings": 0.0,
@@ -220,8 +220,8 @@
         "cash": 1000.0
     },
     "LRCX": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.0282929445678289,
+        "cash": 0
     },
     "LIN": {
         "holdings": 0.0,
@@ -240,16 +240,16 @@
         "cash": 0
     },
     "META": {
-        "holdings": 0.009843876266608988,
-        "cash": 0
+        "holdings": 0,
+        "cash": 988.3571409259276
     },
     "MCHP": {
         "holdings": 0.08916240544081244,
         "cash": 0
     },
     "MU": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.01628001628001628,
+        "cash": 0
     },
     "MSFT": {
         "holdings": 0.016105977805817094,
@@ -316,8 +316,8 @@
         "cash": 0
     },
     "PEP": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.03956478733926805,
+        "cash": 0
     },
     "QCOM": {
         "holdings": 0.043543103443407304,
@@ -332,8 +332,8 @@
         "cash": 1000.0
     },
     "ROST": {
-        "holdings": 0.034960756103168796,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1009.6491494799576
     },
     "STX": {
         "holdings": 0.0,
