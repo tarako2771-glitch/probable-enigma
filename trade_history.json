@@ -40,8 +40,8 @@
         "cash": 0
     },
     "AAPL": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.023822285228754608,
+        "cash": 0
     },
     "AMAT": {
         "holdings": 0.0,
@@ -124,8 +124,8 @@
         "cash": 1000.0
     },
     "CSGP": {
-        "holdings": 0.13036110180353477,
-        "cash": 0
+        "holdings": 0,
+        "cash": 920.4145533163996
     },
     "COST": {
         "holdings": 0.0,
@@ -152,8 +152,8 @@
         "cash": 1000.0
     },
     "DASH": {
-        "holdings": 0.032117678043213214,
-        "cash": 0
+        "holdings": 0,
+        "cash": 849.2074868848077
     },
     "EA": {
         "holdings": 0.03333333333333333,
@@ -304,8 +304,8 @@
         "cash": 0
     },
     "PAYX": {
-        "holdings": 0.06505334161091841,
-        "cash": 0
+        "holdings": 0,
+        "cash": 919.8379810871724
     },
     "PYPL": {
         "holdings": 0.0,
