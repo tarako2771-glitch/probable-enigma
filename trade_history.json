@@ -24,8 +24,8 @@
         "cash": 1000.0
     },
     "AMZN": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.032663725954449316,
+        "cash": 0
     },
     "AEP": {
         "holdings": 0.05506001458414907,
@@ -68,8 +68,8 @@
         "cash": 1000.0
     },
     "ADP": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.031401365472584895,
+        "cash": 0
     },
     "AXON": {
         "holdings": 0.015463598863825664,
@@ -212,8 +212,8 @@
         "cash": 0
     },
     "KLAC": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.004510264278527979,
+        "cash": 0
     },
     "KHC": {
         "holdings": 0.0,
@@ -264,8 +264,8 @@
         "cash": 1000.0
     },
     "MPWR": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.005605420671699365,
+        "cash": 0
     },
     "MNST": {
         "holdings": 0.0,
@@ -292,16 +292,16 @@
         "cash": 0
     },
     "PCAR": {
-        "holdings": 0,
-        "cash": 1001.9258374135778
+        "holdings": 0.05277321323269568,
+        "cash": 0
     },
     "PLTR": {
         "holdings": 0.05055484123391581,
         "cash": 0
     },
     "PANW": {
-        "holdings": 0.04015338622948883,
-        "cash": 0
+        "holdings": 0,
+        "cash": 900.9817348534713
     },
     "PAYX": {
         "holdings": 0,
