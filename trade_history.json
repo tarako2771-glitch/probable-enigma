@@ -80,12 +80,12 @@
         "cash": 1000.0
     },
     "BKNG": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.0015735072396891386,
+        "cash": 0
     },
     "AVGO": {
-        "holdings": 0,
-        "cash": 1036.2684577780444
+        "holdings": 0.020586309164877352,
+        "cash": 0
     },
     "CDNS": {
         "holdings": 0.0,
@@ -120,8 +120,8 @@
         "cash": 0
     },
     "CPRT": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.17846785566491147,
+        "cash": 0
     },
     "CSGP": {
         "holdings": 0,
@@ -168,8 +168,8 @@
         "cash": 952.9079605311304
     },
     "FER": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.09077704854361401,
+        "cash": 0
     },
     "FTNT": {
         "holdings": 0.0,
@@ -180,16 +180,16 @@
         "cash": 0
     },
     "GILD": {
-        "holdings": 0.046951661446253165,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1079.7591133890576
     },
     "HON": {
         "holdings": 0.029525961578900976,
         "cash": 0
     },
     "IDXX": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.010501003088066589,
+        "cash": 0
     },
     "INSM": {
         "holdings": 0.0,
@@ -244,8 +244,8 @@
         "cash": 988.3571409259276
     },
     "MCHP": {
-        "holdings": 0,
-        "cash": 1052.7627626626606
+        "holdings": 0.08879577854828072,
+        "cash": 0
     },
     "MU": {
         "holdings": 0.01628001628001628,
@@ -324,8 +324,8 @@
         "cash": 904.4120380442718
     },
     "REGN": {
-        "holdings": 0.00884578010828954,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1049.2599379780374
     },
     "ROP": {
         "holdings": 0.0,
@@ -348,8 +348,8 @@
         "cash": 1000.0
     },
     "SNPS": {
-        "holdings": 0,
-        "cash": 928.5548963534993
+        "holdings": 0.013877721726225638,
+        "cash": 0
     },
     "TMUS": {
         "holdings": 0.0,
