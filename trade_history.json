@@ -20,8 +20,8 @@
         "cash": 0
     },
     "GOOG": {
-        "holdings": 0.02191468674246722,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1022.0572044348751
     },
     "AMZN": {
         "holdings": 0.032663725954449316,
@@ -356,8 +356,8 @@
         "cash": 1000.0
     },
     "TTWO": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.03264773147061526,
+        "cash": 0
     },
     "TSLA": {
         "holdings": 0,
