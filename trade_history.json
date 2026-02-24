@@ -280,8 +280,8 @@
         "cash": 1000.0
     },
     "NXPI": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.028384496978170234,
+        "cash": 0
     },
     "ORLY": {
         "holdings": 0.0,
@@ -332,12 +332,12 @@
         "cash": 0
     },
     "ROST": {
-        "holdings": 0,
-        "cash": 1009.6491494799576
+        "holdings": 0.03351003980678684,
+        "cash": 0
     },
     "STX": {
-        "holdings": 0.016479622598135114,
-        "cash": 0
+        "holdings": 0,
+        "cash": 982.6716526979887
     },
     "SHOP": {
         "holdings": 0,
