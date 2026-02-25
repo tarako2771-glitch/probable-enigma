@@ -16,8 +16,8 @@
         "cash": 1000.0
     },
     "GOOGL": {
-        "holdings": 0.021946067979968186,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1028.8042142237082
     },
     "GOOG": {
         "holdings": 0,
@@ -52,8 +52,8 @@
         "cash": 1000.0
     },
     "ARM": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.05099374028028116,
+        "cash": 0
     },
     "ASML": {
         "holdings": 0,
@@ -80,8 +80,8 @@
         "cash": 0
     },
     "BKNG": {
-        "holdings": 0,
-        "cash": 916.8763491835376
+        "holdings": 0.0015094869641205046,
+        "cash": 0
     },
     "AVGO": {
         "holdings": 0,
