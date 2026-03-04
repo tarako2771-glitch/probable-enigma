@@ -84,8 +84,8 @@
         "cash": 943.0519808342852
     },
     "AVGO": {
-        "holdings": 0,
-        "cash": 1026.294451299114
+        "holdings": 0.021442110649610185,
+        "cash": 0
     },
     "CDNS": {
         "holdings": 0.0,
@@ -164,8 +164,8 @@
         "cash": 1091.0424159565896
     },
     "FAST": {
-        "holdings": 0,
-        "cash": 952.9079605311304
+        "holdings": 0.13686781453340463,
+        "cash": 0
     },
     "FER": {
         "holdings": 0,
@@ -192,8 +192,8 @@
         "cash": 1012.8217478440225
     },
     "INSM": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.04452455821251726,
+        "cash": 0
     },
     "INTC": {
         "holdings": 0.0,
@@ -204,8 +204,8 @@
         "cash": 0
     },
     "ISRG": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.013293452974410104,
+        "cash": 0
     },
     "KDP": {
         "holdings": 0,
@@ -344,8 +344,8 @@
         "cash": 0
     },
     "SBUX": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.06861533980434116,
+        "cash": 0
     },
     "SNPS": {
         "holdings": 0,
