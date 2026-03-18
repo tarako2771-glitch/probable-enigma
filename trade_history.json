@@ -240,8 +240,8 @@
         "cash": 0
     },
     "META": {
-        "holdings": 0.009849171401407883,
-        "cash": 0
+        "holdings": 0,
+        "cash": 911.2158338265447
     },
     "MCHP": {
         "holdings": 0,
@@ -324,8 +324,8 @@
         "cash": 0
     },
     "REGN": {
-        "holdings": 0.008922563710364897,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1001.7005407753659
     },
     "ROP": {
         "holdings": 0,
