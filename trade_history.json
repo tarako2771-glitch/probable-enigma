@@ -40,8 +40,8 @@
         "cash": 976.3848626898797
     },
     "AAPL": {
-        "holdings": 0.023822285228754608,
-        "cash": 0
+        "holdings": 0,
+        "cash": 893.0141083136817
     },
     "AMAT": {
         "holdings": 0.0,
@@ -92,8 +92,8 @@
         "cash": 1000.0
     },
     "CHTR": {
-        "holdings": 0.03473850523396624,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1089.0000599506368
     },
     "CTAS": {
         "holdings": 0,
@@ -308,8 +308,8 @@
         "cash": 0
     },
     "PYPL": {
-        "holdings": 0.14423769992633612,
-        "cash": 0
+        "holdings": 0,
+        "cash": 964.7338592586381
     },
     "PDD": {
         "holdings": 0,
