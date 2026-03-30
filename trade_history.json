@@ -208,8 +208,8 @@
         "cash": 0
     },
     "KDP": {
-        "holdings": 0,
-        "cash": 1028.2378804753457
+        "holdings": 0.2575101046978922,
+        "cash": 0
     },
     "KLAC": {
         "holdings": 0,
@@ -304,8 +304,8 @@
         "cash": 997.7970779280259
     },
     "PAYX": {
-        "holdings": 0.0631486822299904,
-        "cash": 0
+        "holdings": 0,
+        "cash": 880.2610588356685
     },
     "PYPL": {
         "holdings": 0,
