@@ -1,7 +1,7 @@
 {
     "ADBE": {
-        "holdings": 0,
-        "cash": 926.2578916595961
+        "holdings": 0.025701543129304782,
+        "cash": 0
     },
     "AMD": {
         "holdings": 0,
@@ -112,8 +112,8 @@
         "cash": 0
     },
     "CMCSA": {
-        "holdings": 0,
-        "cash": 993.7089798827444
+        "holdings": 0.23281414690964466,
+        "cash": 0
     },
     "CEG": {
         "holdings": 0,
@@ -300,8 +300,8 @@
         "cash": 0
     },
     "PANW": {
-        "holdings": 0,
-        "cash": 997.7970779280259
+        "holdings": 0.042307324939747926,
+        "cash": 0
     },
     "PAYX": {
         "holdings": 0,
@@ -356,8 +356,8 @@
         "cash": 0
     },
     "TTWO": {
-        "holdings": 0,
-        "cash": 945.6318565489302
+        "holdings": 0.032208718717638384,
+        "cash": 0
     },
     "TSLA": {
         "holdings": 0,
