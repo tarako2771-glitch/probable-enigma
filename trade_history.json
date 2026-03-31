@@ -208,8 +208,8 @@
         "cash": 0
     },
     "KDP": {
-        "holdings": 0.2575101046978922,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1016.2636075614466
     },
     "KLAC": {
         "holdings": 0,
@@ -276,8 +276,8 @@
         "cash": 984.9750432432544
     },
     "NVDA": {
-        "holdings": 0,
-        "cash": 925.6268868343249
+        "holdings": 0.035387347972468446,
+        "cash": 0
     },
     "NXPI": {
         "holdings": 0,
@@ -344,12 +344,12 @@
         "cash": 0
     },
     "SBUX": {
-        "holdings": 0,
-        "cash": 1027.2745347530058
+        "holdings": 0.07645971778147846,
+        "cash": 0
     },
     "SNPS": {
-        "holdings": 0,
-        "cash": 850.2841974898222
+        "holdings": 0.01430515615227382,
+        "cash": 0
     },
     "TMUS": {
         "holdings": 0,
