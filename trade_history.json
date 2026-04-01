@@ -124,8 +124,8 @@
         "cash": 0
     },
     "CSGP": {
-        "holdings": 0.15094949057266144,
-        "cash": 0
+        "holdings": 0,
+        "cash": 909.3197277547529
     },
     "COST": {
         "holdings": 0,
@@ -224,8 +224,8 @@
         "cash": 0
     },
     "LIN": {
-        "holdings": 0.013528089618658848,
-        "cash": 0
+        "holdings": 0,
+        "cash": 998.5861035621216
     },
     "MAR": {
         "holdings": 0,
@@ -316,8 +316,8 @@
         "cash": 997.3422580820128
     },
     "PEP": {
-        "holdings": 0.043674987859493496,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1009.9404432543149
     },
     "QCOM": {
         "holdings": 0,
