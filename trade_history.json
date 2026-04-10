@@ -8,8 +8,8 @@
         "cash": 0
     },
     "ABNB": {
-        "holdings": 0.05245028191506987,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1000.8300471594556
     },
     "ALNY": {
         "holdings": 0.019454795943080087,
@@ -348,8 +348,8 @@
         "cash": 0
     },
     "SNPS": {
-        "holdings": 0.01430515615227382,
-        "cash": 0
+        "holdings": 0,
+        "cash": 839.0617789141925
     },
     "TMUS": {
         "holdings": 0,
