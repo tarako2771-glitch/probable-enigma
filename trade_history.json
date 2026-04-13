@@ -1,7 +1,7 @@
 {
     "ADBE": {
-        "holdings": 0,
-        "cash": 925.7949549730198
+        "holdings": 0.02570474512014438,
+        "cash": 0
     },
     "AMD": {
         "holdings": 0.029974975452566423,
@@ -40,8 +40,8 @@
         "cash": 0
     },
     "AAPL": {
-        "holdings": 0.022476148216882725,
-        "cash": 0
+        "holdings": 0,
+        "cash": 873.9063280861861
     },
     "AMAT": {
         "holdings": 0,
@@ -348,8 +348,8 @@
         "cash": 0
     },
     "SNPS": {
-        "holdings": 0,
-        "cash": 839.0617789141925
+        "holdings": 0.013394021328354737,
+        "cash": 0
     },
     "TMUS": {
         "holdings": 0,
@@ -368,8 +368,8 @@
         "cash": 0
     },
     "TRI": {
-        "holdings": 0,
-        "cash": 858.5998625319257
+        "holdings": 0.0654695077612543,
+        "cash": 0
     },
     "VRSK": {
         "holdings": 0,
