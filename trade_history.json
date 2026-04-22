@@ -76,16 +76,16 @@
         "cash": 0
     },
     "BKR": {
-        "holdings": 0,
-        "cash": 1041.5746784732207
+        "holdings": 0.11177193062086875,
+        "cash": 0
     },
     "BKNG": {
         "holdings": 0.03546696172311302,
         "cash": 0
     },
     "AVGO": {
-        "holdings": 0,
-        "cash": 1025.3295955815588
+        "holdings": 0.016552525132338305,
+        "cash": 0
     },
     "CDNS": {
         "holdings": 0,
@@ -332,8 +332,8 @@
         "cash": 0
     },
     "ROST": {
-        "holdings": 0.0280281199910523,
-        "cash": 0
+        "holdings": 0,
+        "cash": 955.8289876553713
     },
     "STX": {
         "holdings": 0.009229662134713932,
