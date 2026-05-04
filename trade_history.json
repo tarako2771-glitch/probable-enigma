@@ -56,8 +56,8 @@
         "cash": 0
     },
     "ASML": {
-        "holdings": 0.004561146238075138,
-        "cash": 0
+        "holdings": 0,
+        "cash": 947.9501995604021
     },
     "TEAM": {
         "holdings": 0,
@@ -76,8 +76,8 @@
         "cash": 0
     },
     "BKR": {
-        "holdings": 0.10998319200902362,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1141.955502768216
     },
     "BKNG": {
         "holdings": 0.03546696172311302,
@@ -284,8 +284,8 @@
         "cash": 0
     },
     "ORLY": {
-        "holdings": 0.06995294854789963,
-        "cash": 0
+        "holdings": 0,
+        "cash": 985.3397321998098
     },
     "ODFL": {
         "holdings": 0,
