@@ -24,8 +24,8 @@
         "cash": 0
     },
     "AMZN": {
-        "holdings": 0,
-        "cash": 1161.9428262183706
+        "holdings": 0.029325329120235,
+        "cash": 0
     },
     "AEP": {
         "holdings": 0,
@@ -148,8 +148,8 @@
         "cash": 0
     },
     "FANG": {
-        "holdings": 0.037410850776024365,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1145.0526322524943
     },
     "DASH": {
         "holdings": 0,
@@ -168,8 +168,8 @@
         "cash": 924.0161907028271
     },
     "FER": {
-        "holdings": 0,
-        "cash": 974.0787585738068
+        "holdings": 0.09617681743707397,
+        "cash": 0
     },
     "FTNT": {
         "holdings": 0,
@@ -292,16 +292,16 @@
         "cash": 1128.4697432170976
     },
     "PCAR": {
-        "holdings": 0.052924016779925254,
-        "cash": 0
+        "holdings": 0,
+        "cash": 863.481769123509
     },
     "PLTR": {
         "holdings": 0,
         "cash": 1043.5565488535287
     },
     "PANW": {
-        "holdings": 0,
-        "cash": 1480.6534318785398
+        "holdings": 0.03959177999844139,
+        "cash": 0
     },
     "PAYX": {
         "holdings": 0,
@@ -316,16 +316,16 @@
         "cash": 940.8789864061021
     },
     "PEP": {
-        "holdings": 0.04279762564071105,
-        "cash": 0
+        "holdings": 0,
+        "cash": 950.2035799632373
     },
     "QCOM": {
         "holdings": 0.03220771872333377,
         "cash": 0
     },
     "REGN": {
-        "holdings": 0,
-        "cash": 942.6935145917706
+        "holdings": 0.009790963081579684,
+        "cash": 0
     },
     "ROP": {
         "holdings": 0,
@@ -372,8 +372,8 @@
         "cash": 0
     },
     "VRSK": {
-        "holdings": 0.03692192745016889,
-        "cash": 0
+        "holdings": 0,
+        "cash": 953.7625808487973
     },
     "VRTX": {
         "holdings": 0,
@@ -400,8 +400,8 @@
         "cash": 0
     },
     "ZS": {
-        "holdings": 0.03601056567172967,
-        "cash": 0
+        "holdings": 0,
+        "cash": 926.3988362044257
     },
     "SNDK": {
         "holdings": 0,
