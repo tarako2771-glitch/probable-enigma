@@ -56,8 +56,8 @@
         "cash": 0
     },
     "ASML": {
-        "holdings": 0.004072371155952563,
-        "cash": 0
+        "holdings": 0,
+        "cash": 978.42584581281
     },
     "TEAM": {
         "holdings": 0,
@@ -144,8 +144,8 @@
         "cash": 0
     },
     "DXCM": {
-        "holdings": 0.09210448343765311,
-        "cash": 0
+        "holdings": 0,
+        "cash": 975.5246447623202
     },
     "FANG": {
         "holdings": 0,
@@ -300,8 +300,8 @@
         "cash": 1043.5565488535287
     },
     "PANW": {
-        "holdings": 0.03959177999844139,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1481.6630113942929
     },
     "PAYX": {
         "holdings": 0,
