@@ -410,5 +410,25 @@
     "LITE": {
         "holdings": 0,
         "cash": 933.0136878318082
+    },
+    "ALAB": {
+        "holdings": 0.0,
+        "cash": 1000.0
+    },
+    "CRWV": {
+        "holdings": 0.0,
+        "cash": 1000.0
+    },
+    "NBIS": {
+        "holdings": 0.0,
+        "cash": 1000.0
+    },
+    "RKLB": {
+        "holdings": 0.0,
+        "cash": 1000.0
+    },
+    "TER": {
+        "holdings": 0.0,
+        "cash": 1000.0
     }
 }
