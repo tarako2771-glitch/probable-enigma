@@ -16,8 +16,8 @@
         "cash": 823.2866241955012
     },
     "GOOGL": {
-        "holdings": 0,
-        "cash": 1355.7213637040186
+        "holdings": 0.025667790952017686,
+        "cash": 0
     },
     "GOOG": {
         "holdings": 0,
@@ -240,8 +240,8 @@
         "cash": 0
     },
     "META": {
-        "holdings": 0,
-        "cash": 970.3950593109528
+        "holdings": 0.011438144394755252,
+        "cash": 0
     },
     "MCHP": {
         "holdings": 0,
@@ -412,8 +412,8 @@
         "cash": 933.0136878318082
     },
     "ALAB": {
-        "holdings": 0.0,
-        "cash": 1000.0
+        "holdings": 0.014940648560842073,
+        "cash": 0
     },
     "CRWV": {
         "holdings": 0.0,
