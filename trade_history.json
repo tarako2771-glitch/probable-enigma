@@ -430,5 +430,13 @@
     "TER": {
         "holdings": 0,
         "cash": 932.6012498769826
+    },
+    "HONA": {
+        "holdings": 0.0,
+        "cash": 1000.0
+    },
+    "SPCX": {
+        "holdings": 0.0,
+        "cash": 1000.0
     }
 }
