@@ -24,8 +24,8 @@
         "cash": 1336.090714622257
     },
     "AMZN": {
-        "holdings": 0.034135465840422666,
-        "cash": 0
+        "holdings": 0,
+        "cash": 1291.1910537713218
     },
     "AEP": {
         "holdings": 0,
@@ -40,8 +40,8 @@
         "cash": 0
     },
     "AAPL": {
-        "holdings": 0,
-        "cash": 997.3420369307585
+        "holdings": 0.019363232623695874,
+        "cash": 0
     },
     "AMAT": {
         "holdings": 0,
