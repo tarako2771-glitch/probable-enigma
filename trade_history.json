@@ -40,8 +40,8 @@
         "cash": 0
     },
     "AAPL": {
-        "holdings": 0.019363232623695874,
-        "cash": 0
+        "holdings": 0,
+        "cash": 999.0847455944601
     },
     "AMAT": {
         "holdings": 0,
